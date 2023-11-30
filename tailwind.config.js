@@ -4,7 +4,15 @@ module.exports = {
   	"./dist/*.{html,js}",
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily: {
+        banana: "Madura",
+      },
+      backgroundImage: {
+        walpaper : "url('/dist/image/walpaper.jpg')",
+        comonity : "url('/dist/image/comonity.jpeg')",
+      }
+    },
   },
   plugins: [
     require('flowbite/plugin')
