@@ -9,8 +9,8 @@ module.exports = {
         banana: "Madura",
       },
       backgroundImage: {
-        walpaper : "url('/dist/image/walpaper.jpg')",
-        comonity : "url('/dist/image/comonity.jpeg')",
+        walpaper : "url('./dist/image/walpaper.jpg')",
+        comonity : "url('./dist/image/comonity.jpeg')",
       }
     },
   },
