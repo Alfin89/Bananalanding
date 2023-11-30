@@ -1141,7 +1141,7 @@ input[type="range"]::-ms-fill-lower {
 }
 
 .bg-walpaper {
-  background-image: url('dist/image/walpaper.jpg');
+  background-image: url('./dist/image/walpaper.jpg');
 }
 
 .bg-cover {
